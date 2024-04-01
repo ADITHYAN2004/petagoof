@@ -1,0 +1,286 @@
+
+<!DOCTYPE html>
+<!---Coding By CodingLab | www.codinglabweb.com--->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--<title>Registration Form in HTML CSS</title>-->
+    <!---Custom CSS File--->
+    <link rel="stylesheet" href="../src/output.css" />
+    
+      <!-- Unicons CSS -->
+      <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+     <script src="script.js" defer></script>
+     <div class="hd">
+      <nav class="nav font-bold">
+          <i class="uil uil-bars navOpenBtn"></i>
+          <a href="#" class="logo "><h3 class="  font-bold">PetaGo</h3></a>
+  
+          <ul class="nav-links">
+              <i class="uil uil-times navCloseBtn"></i>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="./login.html">Login</a></li>
+          </ul>
+  
+          <i class="uil uil-search search-icon" id="searchIcon"></i>
+          <div class="search-box">
+              <i class="uil uil-search search-icon"></i>
+              <input type="text" placeholder="Search here..."/>
+          </div>
+      </nav>
+  </div>
+
+
+
+  </head>
+
+  
+ 
+  <body>
+    <div class="flt_navigat">
+    <div class="floating_navigationbar">   
+      
+
+     
+                <div class="togg">
+
+              
+                    <a href="#" onclick="newfuntion()">
+                        <span class="text" >New</span>
+
+                    </a>
+              
+            </div>
+            <div class="ver"></div>
+
+            <div class="togg">
+
+           
+              <a href="#" onclick="pendingfuntion()">
+                <span class="text" >Pending</span>
+
+                    </a>
+             
+            </div>    
+            <div class="ver"></div>
+
+            
+            <div class="togg">
+
+          
+              <a href="#" onclick="inprogressfuntion()">
+                <span class="text" >In progress</span>
+
+                    </a>
+             
+                </div>   
+
+  </div>
+
+</div>
+<div class="newdata" id="newdata">
+<div class="alllist" style="display: flex;align-items: center;justify-content: center;flex-direction: column;">
+
+<div class="start_end" style="background:rgb(99, 99, 153);color:white; display: flex; justify-content: space-between;margin-top: 50px;width: 70%;border-radius: 4px;padding: 5px;">
+  <p>Ernakulam to Kollam</p>
+  <button onclick="myFunction2()" style="width: 30px;"> &darr;</button>
+</div>
+<div id="myDropdown2" class="myDropdown2" style="display: none; background:rgb(224, 222, 222);margin-top: 10px;width: 80%;border-radius:5px;padding: 5px;">
+  <p>Lorem ipsum dolor sit amet,  dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+  <button  style="width:50px;"> Book</button>
+
+</div>
+
+
+<div class="start_end" style="background:rgb(99, 99, 153);color:white; display: flex; justify-content: space-between;margin-top: 20px;width: 70%;border-radius: 4px;padding: 5px;">
+  <p> Kollam to Ernakulam </p>
+  <button onclick="myFunction3()" style="width: 30px;"> &darr;</button>
+</div>
+<div id="myDropdown3" class="myDropdown2" style="display: none;  background:rgb(224, 222, 222);margin-top: 10px;width: 80%;border-radius:5px;padding: 5px;">
+  <p>Lorem ipsum dolor sit amet, c dolor sit amet amet, consectetuempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+  <button  style="width:50px;"> Book</button>
+
+</div>
+
+<div class="start_end" style="background:rgb(99, 99, 153);color:white; display: flex; justify-content: space-between;margin-top: 20px;width: 70%;border-radius: 4px;padding: 5px;">
+  <p>Allapuzha to kannur</p>
+  <button onclick="myFunction4()" style="width: 30px;"> &darr;</button>
+</div>
+<div id="myDropdown4" class="myDropdown2" style="display: none;  background:rgb(224, 222, 222);margin-top: 10px;width: 80%;border-radius:5px;padding: 5px;">
+  <p>Lorem ipsum dolor sit amet, c dolor sit amet amet, consecteture et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+  <button  style="width:50px;"> Book</button>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="pendingdata" id="pendingdata" style="display: none;">
+  <div class="alllist" style="display: flex;align-items: center;justify-content: center;flex-direction: column;">
+  
+  <div class="start_end" style="background:rgb(99, 99, 153);color:white; display: flex; justify-content: space-between;margin-top: 50px;width: 70%;border-radius: 4px;padding: 5px;">
+    <p>Ernakulam to Trivandrum</p>
+    <button onclick="myFunction5()" style="width: 30px;"> &darr;</button>
+  </div>
+  <div id="myDropdown5" class="myDropdown5" style="display: none; background:rgb(224, 222, 222);margin-top: 10px;width: 80%;border-radius:5px;padding: 5px;">
+    <p>Lorem ipsum dolor sit amet,  dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+    <button  style="width:50px;"> Book</button>
+  
+  </div>
+  
+  
+
+  
+  </div>
+  
+  </div>
+
+  <div class="inprogress" id="inprogressdata" style="display: none;">
+    <div class="alllist" style="display: flex;align-items: center;justify-content: center;flex-direction: column;">
+    
+    <div class="start_end" style="background:rgb(99, 99, 153);color:white; display: flex; justify-content: space-between;margin-top: 50px;width: 70%;border-radius: 4px;padding: 5px;">
+      <p>Ernakulam to Kollam</p>
+      <button onclick="myFunction6()" style="width: 30px;"> &darr;</button>
+    </div>
+    <div id="myDropdown6" class="myDropdown6" style="display: none; background:rgb(224, 222, 222);margin-top: 10px;width: 80%;border-radius:5px;padding: 5px;">
+      <p>Lorem ipsum dolor sit amet,  dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+      <button  style="width:50px;"> Book</button>
+    
+    </div>
+    
+    
+
+    
+    <div class="start_end" style="background:rgb(99, 99, 153);color:white; display: flex; justify-content: space-between;margin-top: 20px;width: 70%;border-radius: 4px;padding: 5px;">
+      <p>Allapuzha to kannur</p>
+      <button onclick="myFunction7()" style="width: 30px;"> &darr;</button>
+    </div>
+    <div id="myDropdown7" class="myDropdown7" style="display: none;  background:rgb(224, 222, 222);margin-top: 10px;width: 80%;border-radius:5px;padding: 5px;">
+      <p>Lorem ipsum dolor sit amet, c dolor sit amet amet, consecteture et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+      <button  style="width:50px;"> Book</button>
+    
+    </div>
+    
+    </div>
+    
+    </div>
+
+  <script>
+
+
+function newfuntion() {
+  var a = document.getElementById('newdata');
+  var b = document.getElementById('pendingdata');
+  var c = document.getElementById('inprogressdata');
+
+
+  if (a.style.display === "none") {
+    a.style.display = "block";
+    b.style.display = "none";
+    c.style.display = "none";
+
+
+  } 
+
+}
+function pendingfuntion() {
+
+  var a = document.getElementById('newdata');
+  var b = document.getElementById('pendingdata');
+  var c = document.getElementById('inprogressdata');
+  if (b.style.display === "none") {
+    a.style.display = "none";
+    b.style.display = "block";
+    c.style.display = "none";
+  }
+
+}
+function inprogressfuntion() {
+
+  var a = document.getElementById('newdata');
+  var b = document.getElementById('pendingdata');
+  var c = document.getElementById('inprogressdata');
+
+if (c.style.display === "none") {
+  a.style.display = "none";
+    b.style.display = "none";
+    c.style.display = "block";
+
+} 
+}
+
+
+
+
+
+
+
+function myFunction2() {
+  var x = document.getElementById("myDropdown2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+}
+function myFunction3() {
+  var x = document.getElementById("myDropdown3");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+}function myFunction4() {
+  var x = document.getElementById("myDropdown4");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+}
+
+function myFunction5() {
+  var x = document.getElementById("myDropdown5");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+}
+function myFunction6() {
+  var x = document.getElementById("myDropdown6");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+}
+function myFunction7() {
+  var x = document.getElementById("myDropdown7");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+}
+
+
+  </script>
+  <script src="script.js"></script>
+
+  </body>
+</html>
